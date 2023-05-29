@@ -1,0 +1,151 @@
+body {
+    background-color: #e01365;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #bc105c;
+    margin: 0 5vw;
+}
+
+h1 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    border: 3px white solid;
+    border-top: 0;
+    border-bottom: 0;
+    padding: 15px;
+}
+
+hr {
+    border: none;
+    border-top: 2px dotted #9d0037;
+    height: 0;
+    margin-top: 0;
+}
+
+
+main {
+    background-color: #bc105c;
+    margin: 0 5vw;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 30px auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wimg {
+    width: 100%;
+}
+
+.title {
+    margin-top: 42px;
+    color: white;
+}
+
+h2 {
+    color: #9d0037;
+}
+
+div {
+    text-align: center;
+}
+
+a {
+    background-color: #2d8f20;
+
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #e01365;
+}
+
+footer {
+    background-color: #e96192;
+    padding: 1% 0;
+    margin: 15px 4vw;
+    border-radius: 5px;
+}
+
+.footer {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.title-games {
+    text-align: right;
+    margin-bottom: 0;
+
+}
+
+.mariocont {
+    position: absolute;
+    height: 100%;
+}
+
+.mariomov {
+    display: flex;
+    position: relative;
+    animation: mover 3s ease forwards;
+}
+
+@keyframes mover {
+    45% {
+        transform: translate(11rem) rotate(720deg);
+    }
+
+    75% {
+        transform: translate(0) rotate(720deg);
+    }
+}
+
+.mainmario {
+    display: block;
+    margin: 0 auto;
+}
+
+audio {
+    display: none;
+}
+
+.mkcont {
+    position: absolute;
+    height: 100%;
+}
+
+.mkmov {
+    display: flex;
+    position: relative;
+    animation: mover2 7s forwards ;
+}
+
+@keyframes mover2 {
+    25% {
+        transform: translate(11rem) rotate(720deg);
+    }
+
+    45% {
+        transform: translateY(-70px) rotate(720deg);
+    }
+
+    75% {
+        transform: translateX(11rem) rotate(1395deg) translateY(-70px) rotate(720deg);
+    }
+}
